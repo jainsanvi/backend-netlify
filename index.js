@@ -7,7 +7,7 @@ const app = express();
 app.use(cors())
 
 
-app.get('/.netlify/functions/index/',(req, res) => {
+app.get('/.netlify/index/',(req, res) => {
     res.send("success");
 })
 
